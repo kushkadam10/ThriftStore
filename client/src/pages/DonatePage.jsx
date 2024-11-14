@@ -40,7 +40,7 @@ const DonatePage = () => {
       console.log(data);
 
       const paymentObject = new window.Razorpay({
-        key: "rzp_test_GcZZFDPP0jHtC4",
+        key: "rzp_test_K6mkJM55cYybxF",
         order_id: data.id,
         ...data,
         handler: function(response) {
